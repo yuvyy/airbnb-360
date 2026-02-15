@@ -186,6 +186,7 @@
     stopAutorotate();
     scene.view.setParameters(scene.data.initialViewParameters);
     scene.scene.switchTo();
+    scene.scene.preload();
     startAutorotate();
     updateSceneName(scene);
     updateSceneList(scene);
